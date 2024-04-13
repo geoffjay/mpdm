@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/geoffjay/mpdm/cmd"
+)
 
 func main() {
-	fmt.Println("hi")
+	cmd.Execute()
 }
